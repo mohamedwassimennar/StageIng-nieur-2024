@@ -41,4 +41,4 @@ Pour installer l'application, configurez les environnements frontend (Angular) e
 
 ## Contact
 
-Pour toute question ou suggestion, veuillez me contacter à : **votre.email@example.com**
+Pour toute question ou suggestion, veuillez me contacter à : **mohamedwassimennar18@gmail.com**
