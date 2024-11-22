@@ -1,0 +1,116 @@
+/* Conteneur principal pour les produits */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes égales */
+    gap: 20px; /* Espacement entre les colonnes */
+    justify-items: center; /* Centrer les éléments horizontalement */
+    margin: 20px 0;
+}
+
+/* Chaque produit */
+.product-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 300px;
+    height: 100%;
+}
+
+/* Image du produit */
+.product-image {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.offer-banner {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Détails du produit */
+.product-details {
+    text-align: center;
+    padding: 10px;
+}
+
+.product-vendor {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.product-name a {
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-price .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.button-set {
+    display: flex;
+    justify-content: center;
+}
+
+.button-set .addtocart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button-set .addtocart:hover {
+    background-color: #45a049;
+}
+
+/* Responsivité : colonne unique sur petits écrans */
+@media (max-width: 768px) {
+    .product-container {
+        grid-template-columns: 1fr; /* 1 colonne sur petits écrans */
+    }
+
+    .product-name a {
+        font-size: 14px;
+    }
+
+    .product-price {
+        font-size: 16px;
+    }
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login - Hema Multipurpose eCommerce Bootstrap 5 Html Template</title>
+        <link rel="shortcut icon" href="assets/images/favicon.png" />
+    </head>
+
+    <body class="account-page login-page">
+        <div class="page-wrapper">
+
+            <app-header></app-header>
+
+            <div id="page-content"> 
+                <div class="page-header text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex justify-content-between align-items-center">
+                                <div class="page-title"><h1>Login</h1></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Page Header-->
+
+                <!--Main Content-->
+                <div class="container">   
+                    <div class="login-register pt-2">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                                <div class="inner h-100">
+                                    <form method="post" action="#" class="customer-form">  
+                                        <h2 class="text-center fs-4 mb-3">Clients enregistrés</h2>
+                                        <p class="text-center mb-4">Si vous avez un compte chez nous, veuillez vous connecter.</p>
+                                        <div class="form-row">
+                                            <div class="form-group col-12">
+                                                <label for="CustomerEmail" class="d-none">Email <span class="required">*</span></label>
+                                                <input type="email" name="customer[email]" placeholder="Email" id="CustomerEmail" value="" required />
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <label for="CustomerPassword" class="d-none">Mot de passe <span class="required">*</span></label>
+                                                <input type="password" name="customer[password]" placeholder="Mot de passe" id="CustomerPassword" value="" required />                            
+                                            </div>
+                                            <div class="form-group col-12">
+                                                <div class="login-remember-forgot d-flex justify-content-between align-items-center">
+                                                    <div class="remember-check customCheckbox">
+                                                        <input id="remember" name="remember" type="checkbox" value="remember" required />
+                                                        <label for="remember"> Se souvenir de moi</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group col-12 mb-0">
+                                                <input type="submit" class="btn btn-primary btn-lg w-100" value="Se connecter" />
+                                            </div>
+                                        </div>
+                                
+                                        <div class="login-divide"><span class="login-divide-text">OU</span></div>
+                                
+                                        <p class="text-center fs-6 text-muted mb-3">Se connecter avec un compte social</p>
+                                        <div class="login-social d-flex-justify-center">
+                                            <a class="social-link google rounded-5 d-flex-justify-center" href="#"><i class="icon anm anm-google-plus-g me-2"></i> Google</a>
+                                        </div>
+                                
+                                        <div class="login-signup-text mt-4 mb-2 fs-6 text-center text-muted">Vous n'avez pas de compte ? <a href="register" class="btn-link">Inscrivez-vous maintenant</a></div>
+                                    </form>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <app-footer></app-footer>
+        </div>
+    </body>
+</html>

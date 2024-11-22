@@ -1,0 +1,45 @@
+.content {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    min-height: calc(100vh - 100px); /* Ajustez la hauteur minimale pour éviter que le contenu ne soit trop près du haut */
+}
+
+.container-fluid {
+    max-width: 800px; /* Limite la largeur du conteneur */
+    width: 100%; /* S'assure que le conteneur prend tout l'espace disponible */
+}
+
+.card {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Ajoute une ombre pour donner de la profondeur */
+    border-radius: 8px; /* Arrondit les bords de la carte */
+}
+
+.card-body {
+    padding: 30px; /* Ajoute du padding pour aérer le contenu de la carte */
+}
+
+.page-title {
+    font-size: 24px; /* Agrandit le titre */
+    margin-bottom: 20px; /* Ajoute de l'espace en dessous du titre */
+    font-weight: bold; /* Rendre le titre en gras */
+    text-align: center; /* Centre le texte du titre */
+}
+
+.form-label {
+    font-weight: 600; /* Rend les étiquettes plus grasses pour une meilleure lisibilité */
+}
+
+.text-end {
+    text-align: center; /* Centre le bouton dans le conteneur */
+}
+
+.btn {
+    padding: 10px 20px; /* Ajuste le padding du bouton */
+    border-radius: 5px; /* Arrondit les bords du bouton */
+    transition: background-color 0.3s; /* Ajoute une transition pour l'effet de survol */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change la couleur de fond au survol */
+}

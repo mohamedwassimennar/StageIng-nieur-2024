@@ -1,0 +1,44 @@
+/* Style for title */
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Centering the form card */
+.card {
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style for the form inputs and labels */
+.form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Centering the form within the row */
+.row.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
